@@ -1,0 +1,33 @@
+header{
+    background-color: rgb(207, 171, 238);
+}
+.margen{
+    margin-top: 4%;
+}
+
+
+.caja {
+    border: 5px solid #af70d6; /* Color del borde */
+    border-radius: 30px; /* Bordes redondeados */
+    box-shadow: 20px 8px 10px rgba(23, 34, 238, 0.1); /* Sombra */
+    padding: 30px; /* Espaciado interno */
+    max-width: 55%; /* Ancho máximo de la caja */
+    margin: 2% auto; /* Margen automático a los lados para centrar */
+}
+
+
+#mapa {
+    width: 100%;
+ 
+    overflow: hidden;
+}
+
+
+/* Media query for adjusting the size of the map on mobile devices */
+@media only screen and (max-width: 767px) {
+    #mapa {
+        padding-bottom: 150%; /* Adjust this value for a different aspect ratio on mobile */
+    }
+}
+
+
