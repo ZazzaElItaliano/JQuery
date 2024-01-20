@@ -22,6 +22,10 @@ header{
     overflow: hidden;
 }
 
+.cafeteria{
+    max-height: 100%;
+
+}
 
 /* Media query for adjusting the size of the map on mobile devices */
 @media only screen and (max-width: 767px) {

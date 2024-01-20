@@ -67,54 +67,76 @@
         <div class="text-center margen w-100  ">
             <h3>INFORMACIÓN SOBRE NOSOTROS</h3>
             <div class="caja">
-            <div class="mt-5">
-                <h3>¿Quiénes somos? <button id="btn1"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
-                </svg> </button> </h3>
-                <p id="parrafo">AAI Systems es una empresa consultora de páginas web y sistemas gestión de logística enfocada al pequeño y mediano negocio. Debido a la masificación del mercado electrónico muchas empresas y negocios tradicionales dan el paso a tener su propia tienda online. En AAI Systems diseñamos y creamos páginas web para cada cliente y sus necesidades.
-</p>
-            </div>
-            <div>
-                <h3>¿A qué nos dedicamos?  <button id="btn2"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
-                </svg> </button></h3>
-                <p id="parrafo2">El producto que ofrece AAI Systems son principalmente páginas web y programas de gestión para PYMES. A través de estos productos podremos satisfacer las necesidades de nuestros clientes ofreciéndoles una experiencia y productos personalizados.
-</p>
-            </div>
+                <div class="mt-5">
+                    <h3>¿Quiénes somos? <button id="btn1"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
+                            </svg> </button> </h3>
+                    <p id="parrafo">AAI Systems es una empresa consultora de páginas web y sistemas gestión de logística enfocada al pequeño y mediano negocio. Debido a la masificación del mercado electrónico muchas empresas y negocios tradicionales dan el paso a tener su propia tienda online. En AAI Systems diseñamos y creamos páginas web para cada cliente y sus necesidades.
+                    </p>
+                </div>
+                <div>
+                    <h3>¿A qué nos dedicamos? <button id="btn2"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
+                            </svg> </button></h3>
+                    <p id="parrafo2">El producto que ofrece AAI Systems son principalmente páginas web y programas de gestión para PYMES. A través de estos productos podremos satisfacer las necesidades de nuestros clientes ofreciéndoles una experiencia y productos personalizados.
+                    </p>
+                </div>
 
 
-            <div>
-                <h3>Contacta con nosotros  <button id="btn3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
-                </svg> </button></h3>
-                <div id="parrafo3">
-                <p><strong>Email:</strong> AAISystem@gmail.com </p>
-                <p><strong>Teléfono</strong>:+34234567891</p>
-                <p><strong>Instagram:</strong>@AAISystems</p>
-                   
-               
+                <div>
+                    <h3>Contacta con nosotros <button id="btn3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
+                            </svg> </button></h3>
+                    <div id="parrafo3">
+                        <p><strong>Email:</strong> AAISystem@gmail.com </p>
+                        <p><strong>Teléfono</strong>:+34234567891</p>
+                        <p><strong>Dirección:</strong>24 Pl. Pontevedra A Coruña, Galicia</p>
+
+
+
+
+                    </div>
+                </div>
+
+
+                <div class="w-100">
+                    <h3>Localización <button id="btn4"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
+                            </svg> </button></h3>
+                    <div id="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.343490037183!2d-8.423319422641041!3d43.34892517205567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c9264d01a31%3A0x797570e06c8b9f19!2sAv.%20de%20Arteixo%2C%20La%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1705577360768!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </div>
             </div>
 
 
-            <div class="w-100">
-                <h3>Localización <button id="btn4"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
-                </svg> </button></h3>
-                <div id="mapa" ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.343490037183!2d-8.423319422641041!3d43.34892517205567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c9264d01a31%3A0x797570e06c8b9f19!2sAv.%20de%20Arteixo%2C%20La%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1705577360768!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        </div>
+
+
+        <div class="container text-center margen w-100">
+            <div class="row">
+                <h3 class="mb-5">NUESTRAS OFICINAS</h3>
+
+                <div class="col-md-4 mb-4 cambio" data-original-src="fotos/oficina.png" data-original-text="Nuestras oficinas">
+                    <img class="img-fluid mb-4" src="fotos/oficina.png" alt="oficina">
+                    <div class="overlay-text">Nuestras oficinas</div>
+                </div>
+
+                <div class="col-md-4 mb-4 cambio" data-original-src="fotos/cafeteria.png" data-original-text="La cafetería">
+                    <img class="img-fluid mb-4 cafeteria" src="fotos/cafeteria.png" alt="Cafeteria">
+                    <div class="overlay-text">La cafetería</div>
+                </div>
+
+                <div class="col-md-4 mb-4 cambio" data-original-src="fotos/zonaJuegos.png" data-original-text="Ludoteca">
+                    <img class="img-fluid mb-4" src="fotos/zonaJuegos.png" alt="Zona de juegos">
+                    <div class="overlay-text">Ludoteca</div>
+                </div>
+
             </div>
         </div>
- 
-
-
-</div>
 
 
 
 
-
-
-       
     </main>
     <footer>
         <!-- place footer here -->

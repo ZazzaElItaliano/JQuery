@@ -31,3 +31,20 @@ $(document).ready(function () {
         $("#mapa").slideToggle(1000);
     });
 });
+
+
+$(document).ready(function () {
+    $(".cambio").mouseenter(function () {
+        let originalSrc = $(this).data("original-src");
+        let newSrc = "fotos/lavanda.png"; 
+        let originalText = $(this).data("original-text");
+        let newText = "Foto de nuestro logo"; // Cambia esto con el nuevo texto
+        $(this).find("img").attr("src", newSrc);
+        $(this).find(".overlay-text").text(newText);
+    }).mouseleave(function () {
+        let originalSrc = $(this).data("original-src");
+        let originalText = $(this).data("original-text");
+        $(this).find("img").attr("src", originalSrc);
+        $(this).find(".overlay-text").text(originalText);
+    });
+});
