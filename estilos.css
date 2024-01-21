@@ -1,18 +1,32 @@
-header{
+body {
+    margin: 0;
+    padding: 0;
+  }
+header {
     background-color: rgb(207, 171, 238);
-}
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+
+  header.fixed {
+    background-color: #d364e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0; 
+  }
 .margen{
     margin-top: 4%;
 }
 
 
 .caja {
-    border: 5px solid #af70d6; /* Color del borde */
-    border-radius: 30px; /* Bordes redondeados */
-    box-shadow: 20px 8px 10px rgba(23, 34, 238, 0.1); /* Sombra */
-    padding: 30px; /* Espaciado interno */
-    max-width: 55%; /* Ancho máximo de la caja */
-    margin: 2% auto; /* Margen automático a los lados para centrar */
+    border: 5px solid #af70d6; 
+    border-radius: 30px;
+    box-shadow: 20px 8px 10px rgba(23, 34, 238, 0.1); 
+    padding: 30px;
+    max-width: 55%; 
+    margin: 2% auto; 
 }
 
 
@@ -26,11 +40,23 @@ header{
     max-height: 100%;
 
 }
+#githubMessage{
+    display: none;
+}
+label span {
+    font-size: 1em;
+    visibility: hidden;
+    
+  }
 
-/* Media query for adjusting the size of the map on mobile devices */
+#explicacion {
+    display: none;
+}
+
+
 @media only screen and (max-width: 767px) {
     #mapa {
-        padding-bottom: 150%; /* Adjust this value for a different aspect ratio on mobile */
+        padding-bottom: 150%; 
     }
 }
 
