@@ -195,7 +195,7 @@
                 </p>
             </form>
             <button class="btn btn-warning" id="boton">¿CAPTCHA?</button>
-            <p id="explicacion">Para resolver el captcha introduce el resultado correcto de la suma </p>
+            <p id="explicacion">Para resolver el captcha introduce el resultado correcto de la suma y el botón se activará </p>
         </section>
 
         <section class="container" id="seccion4">
@@ -215,9 +215,9 @@
         <div class="column">
             <h4>Servicios</h4>
             <ul class="lista">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a href="https://www.microsoft.com/es-es/licensing">Licencias</a></li>
+                <li><a href="https://www.activaconsultores.es/">Asesoría</a></li>
+                <li><a href="https://www.accenture.com/es-es">Consultoría</a></li>
           
             </ul>
         </div>
@@ -225,19 +225,19 @@
         <div class="column">
             <h4>Redes sociales</h4>
             <ul class="lista">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/?locale=es_ES">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/feed/">Linkedin</a></li>
                 
             </ul>
         </div>
 
         <div class="column">
-            <h4>Otros</h4>
+            <h4>Integrantes</h4>
             <ul class="lista">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a href="https://www.instagram.com/">Alvaro</a></li>
+                <li><a href="https://www.instagram.com/">Alejandro</a></li>
+                <li><a href="https://www.instagram.com/">Ignacio</a></li>
              
             </ul>
         </div>
