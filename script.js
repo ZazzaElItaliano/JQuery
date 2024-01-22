@@ -1,10 +1,10 @@
 "use strict";
 
-
 $(document).ready(function () {
 
+// Ocultar elementos al cargar la página
     $("#parrafo, #parrafo2, #parrafo3, #mapa").hide();
-
+// Controla clics en botones para mostrar/ocultar párrafos
     $("#btn1").click(function () {
 
         $("#parrafo2, #parrafo3, #mapa").slideUp(1000);
@@ -29,8 +29,9 @@ $(document).ready(function () {
 });
 
 
-
+// Cambios en imagen y texto al pasar el ratón
 $(document).ready(function () {
+       // Cambios al pasar el ratón
     $(".cambio").mouseenter(function () {
         let originalSrc = $(this).data("original-src");
         let newSrc = "fotos/lavanda.png"; 
@@ -39,6 +40,8 @@ $(document).ready(function () {
         $(this).find("img").attr("src", newSrc);
         $(this).find(".overlay-text").text(newText);
     }).mouseleave(function () {
+                // Cambios al retirar el ratón
+
         let originalSrc = $(this).data("original-src");
         let originalText = $(this).data("original-text");
         $(this).find("img").attr("src", originalSrc);
@@ -46,16 +49,17 @@ $(document).ready(function () {
     });
 });
 
+// Patrones para validación
 let patronNombre = "^[a-zA-ZáéíóúüÁÉÍÓÚÜ\\s]{4,30}$";
 let patronEmail = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$";
-
+// Genera números aleatorios para el Captcha
 function generarNumerosAleatorios() {
     let num1 = Math.floor(Math.random() * 10) + 1;
     let num2 = Math.floor(Math.random() * 10) + 1;
     let sumaCaptcha = num1 + num2;
     return { num1, num2, sumaCaptcha };
 }
-
+// Muestra los números generados en la página
 let { num1, num2, sumaCaptcha } = generarNumerosAleatorios();
 
 $("#num1").text(num1);
@@ -63,9 +67,11 @@ $("#num2").text(num2);
 
 
 
-
+// Muestra la pregunta del Captcha en la página
 
 $("#captcha-display").text(`Captcha: ¿Cuánto es ${num1} + ${num2}?`);
+
+// Funciones de control y validación del formulario 
 
 function controlInputs(id, patron) {
     if ($(id).val().match(patron)) {
@@ -132,9 +138,13 @@ function validarFormulario(idFormulario) {
         }
     });
 }
+
+// Llama a la función de validación para el formulario con ID "#contacto"
 $(function () {
     validarFormulario("#contacto");
 });
+
+// Cambia el fondo de los inputs y textareas al enfocar y desenfocar
 
 $(document).ready(function () {
     $(" input,  textarea").on("focusin", function () {
@@ -145,13 +155,13 @@ $(document).ready(function () {
         $(this).removeClass("bg-warning"); 
     });
 });
-
+// Mostrar/ocultar una sección al hacer clic en un botón
 $(document).ready(function(){
     $("#boton").click(function(){
         $("#explicacion").toggle();
     });
 });
-
+// Mantener fijo el header al hacer desplazar la web hacia abajo
 $(document).ready(function() {
     $(window).scroll(function() {
       if ($(this).scrollTop() > 0) {
@@ -161,7 +171,7 @@ $(document).ready(function() {
       }
     });
   });
-
+// Cambia el color del icono de github y añadir un texto al pulsarlo
   $(document).ready(function() {
     $("#github").click(function() {
        
@@ -170,7 +180,7 @@ $(document).ready(function() {
         $("#githubMessage").show();
     });
 });
-
+// Animación de cambio de tamaño del logo al pasar el ratón por encima
 
     $(document).ready(function () {
         
@@ -190,7 +200,7 @@ $(document).ready(function() {
         });
     });
 
-   
+   // Agrega elementos antes y después de  elementos en la página
 
     $(document).ready(function () {
    $("<p>Pulsa los botones para saber mas sobre nosotros</p>").insertBefore("#encabezado");
@@ -201,7 +211,7 @@ $(document).ready(function() {
         $("h3.mb-5").after(nuevoElemento);
     });
 
-
+// Asigna colores a elementos de una lista
     
     $(document).ready(function () {
         let colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']; 
@@ -211,7 +221,7 @@ $(document).ready(function() {
             $(this).addClass("list-item-color").css("background-color", color);
         });
     });
-
+// Ajusta el tamaño de texto de las label  en función del tamaño de la ventana
     $(document).ready(function () {
  
         function aumentarTamano() {
