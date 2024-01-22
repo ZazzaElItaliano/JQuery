@@ -54,6 +54,57 @@ label span {
 }
 
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+
+footer {
+    background-color: #d9b0ea;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+h4 {
+    color: #262020; 
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 767px) {
     #mapa {
         padding-bottom: 150%; 

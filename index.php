@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="estilos.css">
 
+<!-- Include Bootstrap Icons CSS in the head of your HTML document -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.17.0/dist/css/bootstrap-icons.min.css" rel="stylesheet">
 
 
 
@@ -35,10 +37,10 @@
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 
 
-            <li><a href="#" class="nav-link px-2">¿Quiénes somos?</a></li>
-            <li><a href="#" class="nav-link px-2">¿A qué nos dedicamos?</a></li>
-            <li><a href="#" class="nav-link px-2">Contacta con nosotros</a></li>
-            <li><a href="#" class="nav-link px-2">Localización</a></li>
+            <li><a href="#seccion1" class="nav-link px-2">¿Quiénes somos?</a></li>
+            <li><a href="#seccion2" class="nav-link px-2">Nuestras oficinas</a></li>
+            <li><a href="#seccion3" class="nav-link px-2">Contacta con nosotros</a></li>
+            <li><a href="#seccion4" class="nav-link px-2">Nuestros servicios</a></li>
         </ul>
 
 
@@ -66,12 +68,12 @@
 
 
 
-        <section>
+        <section id="seccion1">
             <div class="text-center margen w-100  ">
                 <h3>INFORMACIÓN SOBRE NOSOTROS</h3>
                 <div class="caja">
                     <div class="mt-5">
-                        <h3>¿Quiénes somos? <button id="btn1"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                        <h3 id="encabezado">¿Quiénes somos? <button id="btn1"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
                                 </svg> </button> </h3>
                         <p id="parrafo">AAI Systems es una empresa consultora de páginas web y sistemas gestión de logística enfocada al pequeño y mediano negocio. Debido a la masificación del mercado electrónico muchas empresas y negocios tradicionales dan el paso a tener su propia tienda online. En AAI Systems diseñamos y creamos páginas web para cada cliente y sus necesidades.
@@ -115,7 +117,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="seccion2">
             <div class="container text-center margen w-100">
                 <div class="row">
                     <h3 class="mb-5">NUESTRAS OFICINAS</h3>
@@ -140,7 +142,7 @@
 
         </section>
 
-        <section class="container ">
+        <section class="container " id="seccion3">
             <h3 class="mt-4 mb-4 text-center margen w-100">FORMULARIO DE CONTACTO</h3>
             <form name="contacto" id="contacto" method="post">
                 <div class="mb-3">
@@ -196,12 +198,52 @@
             <p id="explicacion">Para resolver el captcha introduce el resultado correcto de la suma </p>
         </section>
 
-
+        <section class="container" id="seccion4">
+        <div class="row">
+            <h3 class="mt-4 mb-4 text-center margen w-100">ALGUNOS DE NUESTROS SERVICIOS</h3>
+            <ul id="servicios-lista">
+                <li><p>Venta de licencias de diversos software</p></li>
+                <li><p>Consultoría para pequeñas y medianas empresas</p></li>
+                <li><p>Asesoría a grandes empresas</p></li>
+                <li><p>Alquiler de sala de reuniones</p></li>
+            </ul>
+        </div>
+    </section>
 
     </main>
     <footer>
-        <!-- place footer here -->
+        <div class="column">
+            <h4>Servicios</h4>
+            <ul class="lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+          
+            </ul>
+        </div>
+
+        <div class="column">
+            <h4>Redes sociales</h4>
+            <ul class="lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="column">
+            <h4>Otros</h4>
+            <ul class="lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+             
+            </ul>
+        </div>
+        
     </footer>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
